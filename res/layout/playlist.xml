@@ -20,7 +20,7 @@
     <LinearLayout
         android:id="@+id/relativeLayoutPlaylist"
         android:layout_width="match_parent"
-        android:layout_height="64dp"
+        android:layout_height="30dp"
         android:background="@drawable/header_bg100"
         android:gravity="center">
 

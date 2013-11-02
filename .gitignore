@@ -20,3 +20,6 @@ local.properties
 .idea
 classes/
 .git*
+
+#mp3agic copyed
+src/com/mpatric/

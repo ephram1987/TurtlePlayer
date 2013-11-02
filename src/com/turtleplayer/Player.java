@@ -140,6 +140,7 @@ public class Player extends ListActivity
 		Log.i(Preferences.TAG, "Player.onCreate() called");
 
 		setContentView(R.layout.main);
+		com.tomoon.sdk.Emulator.configure(getWindow());
 
 		SetupApplication();
 

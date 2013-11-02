@@ -7,7 +7,7 @@
     <include
         android:id="@+id/header"
         android:layout_width="fill_parent"
-        android:layout_height="70dp"
+        android:layout_height="30dp"
         layout="@layout/header" />
 
     <RelativeLayout
@@ -20,7 +20,7 @@
         <include
             android:id="@+id/playlist"
             android:layout_width="fill_parent"
-            android:layout_height="70dp"
+            android:layout_height="30dp"
             android:layout_alignParentBottom="true"
             android:layout_alignParentTop="true"
             layout="@layout/playlist" />

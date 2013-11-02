@@ -36,9 +36,9 @@
                     android:id="@+id/trackDuration"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentTop="true"
                     android:layout_alignParentRight="true"
-                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
                     android:layout_marginRight="15dp"
                     android:text="@string/durationInitialValue"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
@@ -70,13 +70,13 @@
         <RelativeLayout
                 android:id="@+id/relativeLayout_now_buttons"
                 android:layout_width="fill_parent"
-                android:layout_height="84dp"
+                android:layout_height="45dp"
                 android:layout_marginTop="-5dp">
 
             <RelativeLayout
                 android:background="@drawable/header_bg100"
                 android:layout_width="fill_parent"
-                android:layout_height="60dp"
+                android:layout_height="30dp"
                 android:gravity="center_vertical"
                 android:layout_alignParentBottom="true">
 
@@ -109,8 +109,8 @@
                             android:layout_alignParentLeft="true"
                             android:layout_alignParentTop="true"
                             android:contentDescription="@string/back"
-                            android:paddingLeft="18dp"
-                            android:paddingRight="12dp"
+                            android:paddingLeft="4dp"
+                            android:paddingRight="2dp"
                             android:src="@drawable/back48" />
 
                     <ImageView
@@ -121,8 +121,8 @@
                             android:layout_alignParentTop="true"
                             android:layout_toLeftOf="@+id/playButton"
                             android:contentDescription="@string/back"
-                            android:paddingLeft="14dp"
-                            android:paddingRight="14dp"
+                            android:paddingLeft="2dp"
+                            android:paddingRight="2dp"
                             android:src="@drawable/dice48" />
 
                     <ImageView
@@ -133,13 +133,15 @@
                             android:layout_alignParentRight="true"
                             android:layout_alignParentTop="true"
                             android:contentDescription="@string/next"
-                            android:paddingLeft="12dp"
-                            android:paddingRight="18dp"
+                            android:paddingLeft="2dp"
+                            android:paddingRight="4dp"
                             android:src="@drawable/next48" />
                 </LinearLayout>
             </RelativeLayout>
             <SeekBar
                     android:id="@+id/progressBar"
+                    android:maxHeight="10dp"
+                    android:layout_marginTop="-5dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:progressDrawable="@drawable/progress_bar_full"

@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="20dp" >
+    android:padding="5dp" >
 
     <!-- Setting Title -->
     <TextView
@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:text="@string/playback"
         android:paddingBottom="5dp"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:textSize="14sp" />
 
     <!-- Shuffle -->
     <CheckBox
@@ -28,9 +28,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingBottom="5dp"
-        android:paddingTop="15dp"
+        android:paddingTop="5dp"
         android:text="@string/library"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:textSize="14sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -132,13 +132,13 @@
         
     </LinearLayout>
 
-	<!-- About Information -->
+	<!-- About Information 
     <TextView
         android:id="@+id/about"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/app_desc"
         android:paddingTop="20dp"
-        android:textAppearance="?android:attr/textAppearanceSmall" />
+        android:textAppearance="?android:attr/textAppearanceSmall" />-->
     
 </LinearLayout>

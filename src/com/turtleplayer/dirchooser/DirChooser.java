@@ -54,6 +54,7 @@ public class DirChooser extends Activity
 	{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.dir_chooser);
+		com.tomoon.sdk.Emulator.configure(getWindow());
 
 		init();
 	}
